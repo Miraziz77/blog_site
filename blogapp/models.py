@@ -41,5 +41,3 @@ class Post(models.Model):
 
 
 
-posts = Post.objects.all()
-p_posts = Post.published.all()
