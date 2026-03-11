@@ -27,7 +27,7 @@ def post_detail(request, year, month, day, slug):
         comment_form = CommentForm()
 
     return render(request,
-                  'blog/post.detail.html',
+                  'blog/post/detail.html',
                   {'post': post,
                    'new_comment': new_comment,
                    'comment_form': comment_form,
